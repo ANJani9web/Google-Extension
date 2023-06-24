@@ -1,33 +1,50 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 body {
-    width: 240px;
-    padding: 30px;
-    border: 2px solid red;
-    border-radius: 20%;
-    background-color: hsl(141, 85%, 46%);
+    width: 500px;
+    padding: 20px;
+    /* background-image: url('Images/background.jfif'); */
+    background-color: #f2f2f2;
+    /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
     font-family: Arial, sans-serif;
-    font-size: large;
 }
 
-h2 {
-    margin-top: 0;
+
+
+#weather,
+#solutions,
+#pollution {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #f2f2f2;
+    margin-bottom: 10px;
 }
 
-#weather-info,
-#pollution-info,
-#solutions {
-    margin-bottom: 20px;
-}
-
-.Weather_Report{
-    display: flex; 
-    color: bisque;
+.weather_report,
+.pollution_level,
+.saftey_measures {
+    display: flex;
     justify-content: center;
+    color: #333;
+    font-size: 30px;
 }
+
+#pollution_info,
+#weather_info,
+#solutions_info {
+    color: greenyellow;
+    font-size: medium;
+    margin-top: 20px;
+}
+
 #error-message {
     color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
