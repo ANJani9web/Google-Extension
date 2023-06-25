@@ -4,6 +4,7 @@
   "version": "1.0",
   "description": "Displays weather report and pollution level with solutions.",
   "permissions": [
+    "tabs",
     "geolocation",
     "http://api.openweathermap.org/*",    
     "http://api.airvisual.com/*",
@@ -25,5 +26,9 @@
       "run_at": "document_idle"
     }
   ],
-  "web_accessible_resources": ["styles.css"]
+  "web_accessible_resources": [
+    "styles.css",
+    "popup.js",
+    "script.js"
+  ]
 }

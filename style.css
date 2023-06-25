@@ -10,6 +10,7 @@ body {
     background-color: #f2f2f2;
     /* Replace 'background.jpg' with the path to your background image */
     background-size: cover;
+    background-image: url('Images/A-pleasant-weather.png');
     font-family: Arial, sans-serif;
 }
 
@@ -47,4 +48,23 @@ body {
     color: red;
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.our_extension{
+    color: gold;
+    text-align: center;
+}
+
+.label_1{
+    color:aliceblue;
+}
+
+.input_1{
+    color: blue;
+
+}
+
+#welcome_mess{
+    color: aliceblue;
+    padding-top: 30px;
 }

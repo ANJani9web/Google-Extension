@@ -1,5 +1,86 @@
 // Retrieve weather data from OpenWeatherMap API
-let city = prompt("What is your city name");
+
+//let city = prompt("What is your city name");
+
+//var forms = document.querySelector('form'); // Get the form element
+document.querySelector('.form_1').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get the values entered by the user
+  var name = document.getElementById('name').value;
+  var city = document.getElementById('city').value;
+
+  // Display a personalized welcome message
+  var welcomeMessage = "Welcome, " + name + "! You are from " + city + ".";
+  //alert(welcomeMessage);
+
+  // You can perform further actions with the captured user data
+
+  // remove the form
+  var forms = document.querySelector('form'); // Get the form element
+   while (forms.firstChild) {
+    forms.removeChild(forms.firstChild); // Remove each child element
+  }
+  // send welcome message
+  document.getElementById("welcome_mess").innerHTML = welcomeMessage;
+});
+
+var inputElement_name = document.getElementById('name');
+inputElement_name.addEventListener('input', function() {
+  if (inputElement_name.value !== '') {
+    inputElement_name.style.color = 'blue';
+  } else {
+    inputElement_name.style.color = '';
+  }
+});
+
+var inputElement_city = document.getElementById('city');
+inputElement_city.addEventListener('input', function() {
+  if (inputElement_city.value !== '') {
+    inputElement_city.style.color = 'blue';
+  } else {
+    inputElement_city.style.color = '';
+  }
+});
+
+
+// clicking button and then making quotes visible
+function handleClick(){
+fetch("https://type.fit/api/quotes")
+  .then(response=>response.json())
+  .then(data=>{
+    let data_len=data.length;
+
+    let req = Math.floor(Math.random()*data_len)
+    let quote = data[req]
+    document.getElementById("quote").innerHTML = `${quote.text} <br> -by ${quote.author}`;
+  })
+  .catch(error => {
+    document.getElementById("quote").innerHTML = "Error retrieving the data"
+    console.log(error)
+    console.error("Error retrieving quotes data:", error);
+  });
+
+  // var newPageURL = chrome.extension.getURL('demo.html');
+  // window.location.href = newPageURL;
+
+}
+var button = document.getElementById('button');
+button.onclick = handleClick;
+
+function handleClick1(){
+   var parentElement = document.getElementById('container');
+  
+  while (parentElement.firstChild) {
+    parentElement.removeChild(parentElement.firstChild);
+  }
+}
+var button1= document.getElementById('clear');
+button1.onclick = handleClick1;
+
+
+
+
 function getWeatherData(latitude, longitude) {
   const apiKey = "08acd3959fc64db2afa65937232406";
   const url = `http://api.weatherapi.com/v1/forecast.json?key=08acd3959fc64db2afa65937232406&q=${city}&days=4&aqi=yes&alerts=yes`;
@@ -72,7 +153,7 @@ function getPollutionData(latitude, longitude) {
         Pollution Level: ${pollutionLevel}<br>
         Main Pollutant: ${mainPollutant}
       `;
-      document.getElementById("solutions_info").innerHTML = `Solutions: ${solutions}`;
+      //document.getElementById("solutions_info").innerHTML = `Solutions: ${solutions}`;
     })
     .catch(error => {
       // Handle errors if the pollution data cannot be retrieved
@@ -89,8 +170,8 @@ navigator.geolocation.getCurrentPosition(
     const longitude = position.coords.longitude;
 
     // Call the functions to retrieve weather and pollution data
-    getWeatherData(latitude, longitude);
-    getPollutionData(latitude, longitude);
+    // getWeatherData(latitude, longitude);
+    // getPollutionData(latitude, longitude);
   },
   error => {
     // Handle errors if the user's location cannot be accessed
