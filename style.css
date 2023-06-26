@@ -16,16 +16,16 @@ body {
 
 
 
-#weather,
+/* #weather,
 #solutions,
-#pollution {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+#pollution { */
+    /* padding: 20px; */
+    /* background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #f2f2f2;
-    margin-bottom: 10px;
-}
+    color: #f2f2f2; */
+    /* margin-bottom: 10px; */
+/* } */
 
 .weather_report,
 .pollution_level,
@@ -34,15 +34,16 @@ body {
     justify-content: center;
     color: #333;
     font-size: 30px;
+    padding-bottom: 5px;
 }
 
-#pollution_info,
+/* #pollution_info,
 #weather_info,
 #solutions_info {
     color: greenyellow;
     font-size: medium;
     margin-top: 20px;
-}
+} */
 
 #error-message {
     color: red;
@@ -64,7 +65,68 @@ body {
 
 }
 
-#welcome_mess{
-    color: aliceblue;
+#welcome_mess_1{
+    color: black;
     padding-top: 30px;
+    font-size: x-large;
+    font: optional;
+    font-weight:bold;
+    text-align: center;
+    font-style:center;
 }
+
+#welcome_mess_2{
+    color: black;
+    /* padding-bottom: 30px; */
+    font-size:x-large;
+    padding: 10px 0;
+    font-weight: bold; 
+
+}
+
+#quote{
+    width: 300px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color:brown;
+    background-color: greenyellow;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 18px;
+}
+
+
+
+.weather_btn{
+    margin-top: 30px;
+    margin-left: 160px;
+    color: #ffffff;
+}
+
+.air_btn{
+    margin-top: 10px;
+    margin-left: 153px;
+        color: #ffffff;
+}
+
+.weather_div,.air_div{
+    /* margin-top: 10px;
+    background-color: aqua;
+    width: 240px;
+    height: auto; */
+    width: auto;
+        margin: auto;
+        margin-top: 20px;
+        font-size: large;
+        font-weight: bold;
+        color: brown;
+        background-color: whitesmoke;
+        padding: 0 10px;
+        padding-left: 30px;
+        border-radius: 18px;
+}
+
+
+
