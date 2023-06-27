@@ -1,6 +1,7 @@
 
 
 # Weather and Air Pollution Extension
+![logo](https://github.com/ANJani9web/Google-Extension/assets/99578509/d1da98cb-cb93-43c0-8e43-0cf9ee0c2f2e)
 
 The Weather and Pollution extension provides real-time weather reports and air pollution levels for your location. Stay informed about the current weather conditions and the air quality index (AQI) to plan your activities accordingly.
 
@@ -34,6 +35,13 @@ The Weather and Pollution extension provides real-time weather reports and air p
 
 ![First_page](https://github.com/ANJani9web/Google-Extension/assets/99578509/7af7135a-4cee-459a-9127-0c79a99b0148)
 ![Second_page](https://github.com/ANJani9web/Google-Extension/assets/99578509/6e737418-6ef2-4a1f-b703-faacde89c81c)
+
+## Demo video
+https://github.com/ANJani9web/Google-Extension/assets/99578509/f8610b63-5c0e-416f-b5cc-5d8c3d20ac06
+
+
+
+
 
 ## Contact
 
