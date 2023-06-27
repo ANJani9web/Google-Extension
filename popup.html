@@ -12,53 +12,37 @@
 
 <body>
        
-      <!-- <a href="demo.html"> -->
+<!-- Container for the extension -->
+<div class="our_extension container">
+    <!-- Heading -->
+    <h3>Hello! Welcome to the Weather and Air Pollution extension.</h3>
+</div>
 
-       <!-- <div id="weather">
-        <h2 class="weather_report">Weather Report</h2>
-        <div id="weather_info"></div> 
-        
-    </div>
-      </a> -->
-
-    <!-- <div id="pollution">
-        <h2 class="pollution_level">Pollution Level</h2>
-        <div id="pollution_info"></div> 
-    </div>
- -->
-
-    <!-- <div id="solutions">
-    <h2 class="saftey_measures">Saftey measures</h2>
-    <div id="solutions_info">
-    <button id="open-website">Open Website</button></a></div>       
-   </div> -->
-    
-   <div class="our_extension container">
-    <h3 >Hello! Welcome to Weather and Air Pollution extension.
-    </h3>
-   </div>
+<!-- Form for user input -->
 <form class="form_1">
+    <!-- Name input -->
     <label for="name" class="form-label label_1">Your Name:</label>
-    <input type="text" id="name" class="form-control input_1"
-    placeholder="Enter your name" required> 
+    <input type="text" id="name" class="form-control input_1" placeholder="Enter your name" required>
     <br><br>
 
+    <!-- City input -->
     <label for="city" class="form-label label_1">Your City:</label>
-    <input type="text" id="city" class="form-control input_1"
-    placeholder="Enter your city" required>
+    <input type="text" id="city" class="form-control input_1" placeholder="Enter your city" required>
     <br><br>
+
+    <!-- Submit button -->
     <button type="submit" id="button" class="btn btn-primary">Submit</button>
     <br><br>
 </form>
-    
+
+<!-- Container for displaying welcome messages and quote -->
 <div id="container">
     <div id="welcome_mess_1"></div>
     <div id="welcome_mess_2"></div>
     <div id="quote"></div>
 </div>
-   
-   <!-- <button class="btn btn-primary" id="clear"> Clear</button> -->
 
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

@@ -7,7 +7,6 @@
     "tabs",
     "geolocation",
     "http://api.openweathermap.org/*",    
-    "http://api.airvisual.com/*",
     "http://api.weatherapi.com/*"        
   ],
   "icons": {

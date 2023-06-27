@@ -15,18 +15,6 @@ body {
 }
 
 
-
-/* #weather,
-#solutions,
-#pollution { */
-    /* padding: 20px; */
-    /* background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #f2f2f2; */
-    /* margin-bottom: 10px; */
-/* } */
-
 .weather_report,
 .pollution_level,
 .saftey_measures {
@@ -37,14 +25,6 @@ body {
     padding-bottom: 5px;
     padding-top: 15px;
 }
-
-/* #pollution_info,
-#weather_info,
-#solutions_info {
-    color: greenyellow;
-    font-size: medium;
-    margin-top: 20px;
-} */
 
 #error-message {
     color: red;
@@ -114,10 +94,7 @@ body {
 }
 
 .weather_div,.air_div{
-    /* margin-top: 10px;
-    background-color: aqua;
-    width: 240px;
-    height: auto; */
+  
     width: auto;
         margin: auto;
         margin-top: 20px;
@@ -173,8 +150,6 @@ body {
 .pm10 {
     padding-left: 105px;
 }
-/* .location{
-    padding: 0 0;
-} */
+
 
 
