@@ -30,7 +30,7 @@ The Weather and Pollution extension provides real-time weather reports and air p
    
 ## Usage
 
-![Screenshot 1](./Images/First_page.png)
+![Screenshot 1](https://github.com/ANJani9web/Google-Extension/blob/4576ecf5fe0a98709a7bbbb1d8479902f2afb90d/Images/First_page.png)
 
 ## Contact
 
