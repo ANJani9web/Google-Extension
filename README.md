@@ -1,14 +1,13 @@
 # My Awesome Chrome Extension
 
-![Extension Logo](Images/logo.png)
-
-A brief description of what your Chrome extension does.
+The Weather and Pollution extension provides real-time weather reports and air pollution levels for your location. Stay informed about the current weather conditions and the air quality index (AQI) to plan your activities accordingly.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- ...
+- **Weather Report**: Get accurate and up-to-date weather information including temperature, wind speed, astrological, and rain information.
+
+- **Air Pollution Level**: Check the air quality index (AQI) for your area to understand the level of pollution and its impact on health.
+
 
 ## Installation
 
