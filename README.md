@@ -33,7 +33,7 @@ Instructions on how to use the extension and any relevant screenshots or GIFs.
 
 ## Contact
 
-If you have any questions, suggestions, or issues, feel free to contact the project maintainer:
+If you have any questions, suggestions, or issues, feel free to me :
 
 - Name: Anjani Kumar
 - Email: anjanison9@gmail.com
