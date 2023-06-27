@@ -35,6 +35,7 @@ body {
     color: #333;
     font-size: 30px;
     padding-bottom: 5px;
+    padding-top: 15px;
 }
 
 /* #pollution_info,
@@ -66,7 +67,8 @@ body {
 }
 
 #welcome_mess_1{
-    color: black;
+    color: white;
+    
     padding-top: 30px;
     font-size: x-large;
     font: optional;
@@ -76,7 +78,7 @@ body {
 }
 
 #welcome_mess_2{
-    color: black;
+    color:orange;
     /* padding-bottom: 30px; */
     font-size:x-large;
     padding: 10px 0;
@@ -128,5 +130,51 @@ body {
         border-radius: 18px;
 }
 
+.header{
+    text-align: center;
+}
+
+.pollutant{
+   width: 45px;
+   color: blue;
+   padding-left: 25px;
+   text-align: center;
+}
+
+.concentration{
+    width: 45px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.uv{
+    padding-left: 135px;
+}
+
+.co {
+    padding-left:125px;
+}
+
+.no2 {
+    padding-left: 125px;
+}
+
+.o3 {
+    padding-left: 125px;
+}
+
+.so2 {
+    padding-left: 125px;
+}
+
+.pm25 {
+    padding-left: 100px;
+}
+
+.pm10 {
+    padding-left: 105px;
+}
+/* .location{
+    padding: 0 0;
+} */
 
 
