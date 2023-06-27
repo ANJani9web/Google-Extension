@@ -1,6 +1,6 @@
 # My Awesome Chrome Extension
 
-![Extension Logo](./Images/logo.png)
+![Extension Logo](Images/logo.png)
 
 A brief description of what your Chrome extension does.
 
