@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Weather and Pollution Extension",
   "version": "1.0",
-  "description": "Displays weather report and pollution level with solutions.",
+  "description": "Displays weather report and air pollution level.",
   "permissions": [
     "tabs",
     "geolocation",
@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
-      "js": ["content.js"],
+      "js": ["script.js"],
       "run_at": "document_idle"
     }
   ],
