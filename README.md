@@ -11,12 +11,22 @@ The Weather and Pollution extension provides real-time weather reports and air p
 
 ## Installation
 
+**Way 1**
 1. Clone or download this repository.
 2. Open Google Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" using the toggle switch in the top right corner.
 4. Click on "Load unpacked" and select the folder containing the extension files.
 5. The extension should now be installed and visible in the list of extensions.
 
+**Way 2**
+1. Open a tab on web browser.
+2. Find extension logo on upper part of the web browser and click on it.
+3. Open Manage Extension setting.
+4. Enable "Developer mode" using the toggle switch in the top right corner.
+5. Click on "Load unpacked" and select the folder containing the extension files.
+6. The extension should now be installed and visible in the list of extensions.
+
+   
 ## Usage
 
 Instructions on how to use the extension and any relevant screenshots or GIFs.
